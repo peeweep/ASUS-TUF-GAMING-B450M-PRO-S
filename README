@@ -8,14 +8,15 @@ Hardware:
 Software (All):
  * OpenCorePkg: 0.8.6
  * macOS: Monterey 12.6.1
- * ACPI: (SSDT-EC-USBX-DESKTOP.aml)[https://github.com/dortania/Getting-Started-With-ACPI/blob/14178797008259cf9594c2b43da018132564771b/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml]
+ * ACPI: SSDT-EC-USBX-DESKTOP.aml
  * Drivers/OpenRuntime.efi: core driver, must require
  * Drivers/HfsPlus.efi: HFS filesystem driver, must require
- * Drivers/OpenHfsPlus.efi: HFS filesystem driver, required by loading install dmg (maybe not necessary after systemd installed)
+ * Drivers/OpenHfsPlus.efi: HFS filesystem driver, required by loading install dmg (maybe not necessary after system installed)
  * Kexts/Lilu.kext: core driver, must require
  * Kexts/VirtualSMC.kext: core driver, must require
  * Kexts/WhateverGreen.kext: GPU driver, use agdpmod=pikera here
  * Kexts/AppleALC.kext: audio driver, use alcid=1 here
+ * AMD_Vanilla/patches.plist: ZEN CPU kernel patch
  * Kexts/AppleMCEReporterDisabler.kext: RYZEN CPU booting require
  * Kexts/{SMCAMDProcessor.kext AMDRyzenCPUPowerManagement.kext}: monitor AMD CPU
  * Kexts/LucyRTL8125Ethernet.kext: 2.5G Ethernet Card (RTL8125B) require
