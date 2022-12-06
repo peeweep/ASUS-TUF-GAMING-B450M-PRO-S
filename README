@@ -5,7 +5,7 @@ Hardware:
  * CPU: AMD RYZEN 3900X
  * GPU: RX6600XT
  * SSD: Kioxia RC20
- * Sound: Motherboard Build-in
+ * Sound: Motherboard Build-in lineout
 
 Software (All):
  * OpenCorePkg: 0.8.6
@@ -38,7 +38,7 @@ BIOS Disable:
 Work fine:
  * S3 and wakeup from s3
  * USB (after inject)
- * Audio (use buildin sound and  layout 1)
+ * Audio (motherboard build-in lineout work fine, linein not tested)
  * RTL8125B 2.5G Ethernet Card
  * RX6600XT GPU don't need more driver after macOS 12.1
 
