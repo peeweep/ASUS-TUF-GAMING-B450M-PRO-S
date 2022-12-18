@@ -11,6 +11,8 @@ Software (All):
  * OpenCorePkg: 0.8.6
  * macOS: Monterey 12.6.1
  * Platform: MacPro7,1
+ * Plist editor: ProperTree
+ * MountEFI: https://github.com/corpnewt/MountEFI
  * ACPI: SSDT-EC-USBX-DESKTOP.aml
  * Drivers/OpenRuntime.efi: core driver, must require
  * Drivers/HfsPlus.efi: HFS filesystem driver, must require
